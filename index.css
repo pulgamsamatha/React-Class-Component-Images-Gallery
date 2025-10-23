@@ -1,41 +1,22 @@
-.app-container {
-  display: flex;
-  justify-content: center;
+.thumbnail-list-item {
+  margin-right: 16px;
+  margin-bottom: 16px;
 }
 
-.gallery-container {
-  display: flex;
-  flex-direction: column;
-  width: 85%;
-  margin-top: 34px;
-  margin-bottom: 34px;
-  max-width: 1140px;
+.thumbnail-button {
+  background: transparent;
+  border: none;
+  padding: 0;
+  outline: none;
+  cursor: pointer;
 }
 
-.selected-image {
-  border-radius: 18px;
-  width: 60%;
-  height: 57%;
+.thumbnail {
+  width: 60px;
+  height: 60px;
+  opacity: 0.4;
 }
 
-.heading {
-  color: #1e293b;
-  font-family: 'Roboto';
-  font-size: 24px;
-  font-weight: 500;
-  margin-top: 24px;
-}
-
-.description {
-  color: #64748b;
-  font-family: 'Roboto';
-  font-weight: 500;
-  font-size: 16px;
-}
-
-.thumbnails-list {
-  display: flex;
-  flex-wrap: wrap;
-  list-style: none;
-  padding: 0px;
+.active {
+  opacity: 1;
 }
